@@ -1,1 +1,27 @@
 
+<html>
+
+  <head>
+       <title> Home </title>
+  </head>
+
+  <body>
+        <script>
+        # from your watson assistant page
+        window.watsonAssistantChatOptions = {
+            integrationID: "01bcedd3-8231-4916-b61a-f6ae967f249c", // The ID of this integration.
+            region: "au-syd", // The region your integration is hosted in.
+            serviceInstanceID: "7f6e648a-e98d-4bcb-a5b0-4826be976f22", // The ID of your service instance.
+            onLoad: function (instance) { instance.render(); }
+        };
+        setTimeout(function () {
+            const t = document.createElement('script');
+
+            t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+        });
+        </script>
+        
+      <h2> Hellooo  </h2>
+  </body>
+</html>
