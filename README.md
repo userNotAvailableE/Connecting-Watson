@@ -1,4 +1,4 @@
-# Connecting-Watson
+# Connecting-Watson <img alt="Visitor Badge" src="https://visitor-badge.feriirawann.repl.co?username=userNotAvailableE&repo=Connecting-Watson&label=VISITS&style=plastic&color=%23457BFF&contentType=svg">
 ## Structure
 
 ## Kindly follow the appropriate naming conventions
